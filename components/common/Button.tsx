@@ -1,7 +1,12 @@
 
+import React, { Component } from 'react'
 
-export default function Button() {
-  return (
-    <div>Button</div>
-  )
+export default class Button extends Component {
+  static propTypes = {}
+
+  render() {
+    return (
+      <div>Button</div>
+    )
+  }
 }

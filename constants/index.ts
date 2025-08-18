@@ -24,7 +24,8 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
       occupants: "4-6"
     },
     image: "/assets/images/image 2.png",
-    discount: ""
+    discount: "",
+    description: "A beautiful family house located in the heart of Ikeja, Lagos."
   },
   {
     name: "Mountain Escape Chalet",
@@ -42,7 +43,8 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
       occupants: "5-7"
     },
     image: "/assets/images/image 2.png",
-    discount: "30"
+    discount: "30",
+    description: "A beautiful family house located in the heart of Ikeja, Lagos."
   },
   {
     name: "Cozy Desert Retreat",
@@ -60,7 +62,8 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
       occupants: "2-3"
     },
     image: "/assets/images/image 3.png",
-    discount: ""
+    discount: "",
+    description: "A beautiful family house located in the heart of Ikeja, Lagos."
   },
   {
     name: "City Lights Penthouse",
@@ -78,7 +81,8 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
       occupants: "2-4"
     },
     image: "/assets/images/image 4.png",
-    discount: "15"
+    discount: "15",
+    description: "A beautiful family house located in the heart of Ikeja, Lagos."
   },
   {
     name: "Riverside Cabin",
@@ -114,7 +118,8 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
       occupants: "8-10"
     },
     image: "/assets/images/image 6.png",
-    discount: ""
+    discount: "",
+    description: "A beautiful family house located in the heart of Ikeja, Lagos."
   },
   {
     name: "Lakeside Chalet",
@@ -132,7 +137,8 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
       occupants: "4-5"
     },
     image: "/assets/images/image 7.png",
-    discount: "10"
+    discount: "10",
+    description: "A beautiful family house located in the heart of Ikeja, Lagos."
   },
   {
     name: "Tropical Garden Villa",
@@ -150,7 +156,8 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
       occupants: "5-6"
     },
     image: "/assets/images/image 8.png",
-    discount: "25"
+    discount: "25",
+    description: "A beautiful family house located in the heart of Ikeja, Accra."
   },
   {
     name: "Urban Loft",
@@ -168,7 +175,8 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
       occupants: "2-3"
     },
     image: "/assets/images/image 9.png",
-    discount: ""
+    discount: "",
+    description: "A beautiful family house located in the heart of Ikeja, Togo."
   },
   {
     name: "Secluded Forest Cabin",
@@ -186,7 +194,8 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
       occupants: "5-7"
     },
     image: "/assets/images/image 10.png",
-    discount: "40"
+    discount: "40",
+    description: "A beautiful family house located in the heart of Ikeja, Lagos."
   },
   {
     name: "Cliffside Villa",
@@ -204,7 +213,8 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
       occupants: "6-8"
     },
     image: "/assets/images/image 11.png",
-    discount: "50"
+    discount: "50",
+    description: "A beautiful family house located in the heart of Ikeja, Lagos."
   },
   {
     name: "Coastal Escape Villa",
@@ -222,7 +232,8 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
       occupants: "4-6"
     },
     image: "/assets/images/image 12.png",
-    discount: ""
+    discount: "",
+    description: "A beautiful family house located in the heart of Ikeja, Lagos."
   },
   {
     name: "Historical Villa",
@@ -240,7 +251,8 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
       occupants: "2-4"
     },
     image: "/assets/images/image 13.png",
-    discount: "35"
+    discount: "35",
+    description: "A beautiful family house located in the heart of Ikeja, Lagos."
   },
   {
     name: "Downtown Apartment",
@@ -258,7 +270,8 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
       occupants: "2"
     },
     image: "/assets/images/image 17.png",
-    discount: ""
+    discount: "",
+    description: "A beautiful family house located in the heart of Ikeja, Lagos."
   },
   {
     name: "Luxury Safari Lodge",
@@ -276,7 +289,8 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
       occupants: "6-8"
     },
     image: "/assets/images/image 15.png",
-    discount: "20"
+    discount: "20",
+    description: "A beautiful family house located in the heart of Ikeja, Lagos."
   },
   {
     name: "Countryside Cottage",
@@ -294,7 +308,8 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
       occupants: "2-4"
     },
     image: "/assets/images/image 16.png",
-    discount: "25"
+    discount: "25",
+    description: "A beautiful family house located in the heart of Ikeja, Lagos."
   },
   {
     name: "Riverfront Mansion",
@@ -312,7 +327,8 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
       occupants: "6-8"
     },
     image: "/assets/images/image 17.png",
-    discount: "30"
+    discount: "30",
+    description: "A beautiful family house located in the heart of Ikeja, Lagos."
   },
   {
     name: "Ski Chalet",
@@ -330,7 +346,8 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
       occupants: "4-5"
     },
     image: "/assets/images/image 15.png",
-    discount: ""
+    discount: "",
+    description: "A beautiful family house located in the heart of Ikeja, Lagos."
   },
   {
     name: "Island Paradise Villa",
@@ -348,7 +365,8 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
       occupants: "8-10"
     },
     image: "/assets/images/image 16.png",
-    discount: "60"
+    discount: "60",
+    description: "A beautiful family house located in the heart of Ikeja, Lagos."
   },
   {
     name: "Clifftop Retreat",
@@ -366,6 +384,29 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
       occupants: "4-5"
     },
     image: "/assets/images/image 17.png",
-    discount: ""
+    discount: "",
+    description: "A beautiful family house located in the heart of Ikeja, Lagos."
+  }
+];
+
+// Example defaultReviews array with placeholder avatars
+export const DEFAULTREVIEWS = [
+  {
+    name: "Alice Johnson",
+    comment: "Amazing stay! The property was clean and comfortable.",
+    rating: 5,
+    avatar: "https://ui-avatars.com/api/?name=Alice+Johnson&background=random"
+  },
+  {
+    name: "Bob Smith",
+    comment: "Great location and friendly host. Would visit again.",
+    rating: 4,
+    avatar: "https://ui-avatars.com/api/?name=Bob+Smith&background=random"
+  },
+  {
+    name: "Carol Lee",
+    comment: "Good value for money. Enjoyed the amenities.",
+    rating: 4,
+    avatar: "https://ui-avatars.com/api/?name=Carol+Lee&background=random"
   }
 ];

@@ -28,7 +28,8 @@ export interface CardProps {
       occupants: string
     },
     image: string,
-    discount: string
+    discount: string,
+    description?: string,
   }
 
   export interface Button {

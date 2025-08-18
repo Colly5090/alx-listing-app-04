@@ -3,6 +3,7 @@ import Pill from "@/components/common/Pill";
 import { HERO_BG } from "@/constants";
 import { PROPERTYLISTINGSAMPLE } from "@/constants";
 import Image from "next/image";
+import Link from "next/link";
 
 
 const Home: React.FC = () => {
@@ -44,7 +45,9 @@ const Home: React.FC = () => {
       </section>
       <section className="grid grid-cols-3 gap-6 mt-4 p-4">
         {PROPERTYLISTINGSAMPLE.map((prop, idx) => (
-          <PropertyCard property={prop} key={idx} />
+          <Link href={`/property/${prop.name}`} key={idx}>
+            <PropertyCard property={prop} />
+          </Link>
         ))}
       </section>
     </>

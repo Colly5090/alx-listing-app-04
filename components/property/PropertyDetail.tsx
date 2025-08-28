@@ -1,13 +1,13 @@
-import { PropertyProps } from "@/interfaces/index";
+import { PropertyCardProps } from "@/interfaces/index";
 import BookingSection from "@/components/property/BookingSection";
 
-const PropertyDetail: React.FC<{ property: PropertyProps }> = ({ property }) => {
+const PropertyDetail: React.FC<{ property: PropertyCardProps }> = ({ property }) => {
     return (
         <div className="container mx-auto p-6">
             <h1 className="text-4xl font-bold">{property.name}</h1>
             <div className="flex items-center space-x-2 mt-2">
                 <span className="text-yellow-500">{property.rating} stars</span>
-                <span>{property.address.city}, {property.address.country}</span>
+                <span>{property.address?.city}, {property.address?.country}</span>
             </div>
 
             {/* Image Grid */}
@@ -31,7 +31,7 @@ const PropertyDetail: React.FC<{ property: PropertyProps }> = ({ property }) => 
                     <p className="leading-relaxed">{property.description}</p>
                 </div>
                 <div className="md:w-1/3">
-                    <BookingSection price={property.price} id={property.name} />
+                    <BookingSection price={property.price ?? 0} id={property.name} />
                 </div>
             </div>
 
@@ -39,7 +39,7 @@ const PropertyDetail: React.FC<{ property: PropertyProps }> = ({ property }) => 
             <div className="mt-4">
                 <h2 className="text-2xl font-semibold">What this place offers</h2>
                 <ul className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                    {property.category.map((amenity, index) => (
+                    {property.category?.map((amenity, index) => (
                         <li key={index} className="bg-gray-200 p-2 rounded-md">
                             {amenity}
                         </li>

@@ -35,4 +35,28 @@ export interface CardProps {
   export interface Button {
     label: string;
 }
-  
+
+export interface PropertyCardProps {
+  id: string | number;
+  name?: string;
+  address?: {
+    state?: string;
+    city?: string;
+    country?: string;
+  };
+  rating?: number;
+  category?: string[];
+  price?: number;
+  offers?: {
+    bed?: string;
+    shower?: string;
+    occupants?: string;
+  };
+  image?: string;
+  discount?: string;
+  description?: string;
+}
+
+export interface Property {
+  [key: string]: any; // fallback for unknown structure
+} 

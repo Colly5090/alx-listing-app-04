@@ -37,4 +37,21 @@ npm install
 npm run dev
 ```
 
+## API Integration for All Pages
+
+The goal is to replace hardcoded property, booking, and review data with data fetched from a REST API using Axios. Also handle loading states, errors, and display the data dynamically across all pages.
+
+### API Setup
+
+**Install axios for API requests**
+
+```bash
+npm install axios
+```
+
+- **GET /properties** — Fetches the list of properties for the listing page
+- **GET /properties/:id** — Fetches the details of a single property based on its ID
+- **POST /bookings** — Submits booking details to the server
+- **GET /properties/:id/reviews** — Fetches the reviews of a property
+
 open your browser and navigate to http://localhost:3000
